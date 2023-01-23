@@ -4,7 +4,7 @@ clear
 tput civis
 lin=2
 col=$(($(tput cols) / 2))
-c=$((col+5))
+c=$((col+1))
 est=$((c-2))
 color=0
 tput setaf 2; tput bold
@@ -33,7 +33,7 @@ new_year=$(date +'%Y')
 let new_year++
 tput setaf 1; tput bold
 tput cup $lin $((c - 6)); echo メリークリスマス
-tput cup $((lin + 1)) $((c - 5)); echo そして $new_year 年にたくさんの
+tput cup $((lin + 1)) $((c - 13)); echo そして $new_year 年にたくさんの
 let c++
 k=1
 
