@@ -4,7 +4,7 @@ clear
 tput civis
 lin=2
 col=$(($(tput cols) / 2))
-c=$((col-1))
+c=$((col+5))
 est=$((c-2))
 color=0
 tput setaf 2; tput bold
